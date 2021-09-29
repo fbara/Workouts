@@ -11,12 +11,16 @@
 		AD38B3602704B2EA002F8591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD38B35F2704B2EA002F8591 /* Assets.xcassets */; };
 		AD38B3662704B2EB002F8591 /* Workouts WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AD38B3652704B2EB002F8591 /* Workouts WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AD38B36B2704B2EB002F8591 /* WorkoutsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38B36A2704B2EB002F8591 /* WorkoutsApp.swift */; };
-		AD38B36D2704B2EB002F8591 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38B36C2704B2EB002F8591 /* ContentView.swift */; };
+		AD38B36D2704B2EB002F8591 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38B36C2704B2EB002F8591 /* StartView.swift */; };
 		AD38B36F2704B2EB002F8591 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38B36E2704B2EB002F8591 /* NotificationController.swift */; };
 		AD38B3712704B2EB002F8591 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38B3702704B2EB002F8591 /* NotificationView.swift */; };
 		AD38B3732704B2EB002F8591 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38B3722704B2EB002F8591 /* ComplicationController.swift */; };
 		AD38B3752704B2EC002F8591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD38B3742704B2EC002F8591 /* Assets.xcassets */; };
 		AD38B3782704B2EC002F8591 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD38B3772704B2EC002F8591 /* Preview Assets.xcassets */; };
+		AD38B3892704B5B8002F8591 /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38B3882704B5B8002F8591 /* SessionPagingView.swift */; };
+		AD38B38B2704C6C2002F8591 /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38B38A2704C6C2002F8591 /* MetricsView.swift */; };
+		AD38B38F2704CB13002F8591 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38B38E2704CB13002F8591 /* ElapsedTimeView.swift */; };
+		AD38B3912704D25D002F8591 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38B3902704D25D002F8591 /* ControlsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +71,7 @@
 		AD38B35F2704B2EA002F8591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD38B3652704B2EB002F8591 /* Workouts WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Workouts WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD38B36A2704B2EB002F8591 /* WorkoutsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsApp.swift; sourceTree = "<group>"; };
-		AD38B36C2704B2EB002F8591 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD38B36C2704B2EB002F8591 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		AD38B36E2704B2EB002F8591 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		AD38B3702704B2EB002F8591 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		AD38B3722704B2EB002F8591 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
@@ -75,6 +79,10 @@
 		AD38B3772704B2EC002F8591 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD38B3792704B2EC002F8591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD38B37A2704B2EC002F8591 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		AD38B3882704B5B8002F8591 /* SessionPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
+		AD38B38A2704C6C2002F8591 /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		AD38B38E2704CB13002F8591 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		AD38B3902704D25D002F8591 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,10 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				AD38B36A2704B2EB002F8591 /* WorkoutsApp.swift */,
-				AD38B36C2704B2EB002F8591 /* ContentView.swift */,
-				AD38B36E2704B2EB002F8591 /* NotificationController.swift */,
-				AD38B3702704B2EB002F8591 /* NotificationView.swift */,
-				AD38B3722704B2EB002F8591 /* ComplicationController.swift */,
+				AD38B38C2704C6D1002F8591 /* Views */,
+				AD38B38D2704C6F3002F8591 /* View Controllers */,
 				AD38B3742704B2EC002F8591 /* Assets.xcassets */,
 				AD38B3792704B2EC002F8591 /* Info.plist */,
 				AD38B37A2704B2EC002F8591 /* PushNotificationPayload.apns */,
@@ -137,6 +143,28 @@
 				AD38B3772704B2EC002F8591 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD38B38C2704C6D1002F8591 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD38B36C2704B2EB002F8591 /* StartView.swift */,
+				AD38B3882704B5B8002F8591 /* SessionPagingView.swift */,
+				AD38B38A2704C6C2002F8591 /* MetricsView.swift */,
+				AD38B3702704B2EB002F8591 /* NotificationView.swift */,
+				AD38B38E2704CB13002F8591 /* ElapsedTimeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD38B38D2704C6F3002F8591 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD38B36E2704B2EB002F8591 /* NotificationController.swift */,
+				AD38B3722704B2EB002F8591 /* ComplicationController.swift */,
+				AD38B3902704D25D002F8591 /* ControlsView.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,11 +294,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD38B38F2704CB13002F8591 /* ElapsedTimeView.swift in Sources */,
+				AD38B3912704D25D002F8591 /* ControlsView.swift in Sources */,
 				AD38B36F2704B2EB002F8591 /* NotificationController.swift in Sources */,
-				AD38B36D2704B2EB002F8591 /* ContentView.swift in Sources */,
+				AD38B38B2704C6C2002F8591 /* MetricsView.swift in Sources */,
+				AD38B36D2704B2EB002F8591 /* StartView.swift in Sources */,
 				AD38B3732704B2EB002F8591 /* ComplicationController.swift in Sources */,
 				AD38B36B2704B2EB002F8591 /* WorkoutsApp.swift in Sources */,
 				AD38B3712704B2EB002F8591 /* NotificationView.swift in Sources */,
+				AD38B3892704B5B8002F8591 /* SessionPagingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
