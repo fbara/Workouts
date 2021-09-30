@@ -26,8 +26,10 @@ struct ControlsView: View {
                     
                 } label: {
                     Image(systemName: "pause")
-
                 }
+                .tint(Color.yellow)
+                .font(.title2)
+                Text("Pause")
             }
         }
     }

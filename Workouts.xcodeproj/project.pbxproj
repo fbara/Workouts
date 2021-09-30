@@ -21,6 +21,8 @@
 		AD38B38B2704C6C2002F8591 /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38B38A2704C6C2002F8591 /* MetricsView.swift */; };
 		AD38B38F2704CB13002F8591 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38B38E2704CB13002F8591 /* ElapsedTimeView.swift */; };
 		AD38B3912704D25D002F8591 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38B3902704D25D002F8591 /* ControlsView.swift */; };
+		AD38B3932704F67A002F8591 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38B3922704F67A002F8591 /* SummaryView.swift */; };
+		AD721A4927060D710088FBFF /* ActivityRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD721A4827060D710088FBFF /* ActivityRingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		AD38B38A2704C6C2002F8591 /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
 		AD38B38E2704CB13002F8591 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
 		AD38B3902704D25D002F8591 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		AD38B3922704F67A002F8591 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		AD721A4827060D710088FBFF /* ActivityRingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,8 @@
 				AD38B38A2704C6C2002F8591 /* MetricsView.swift */,
 				AD38B3702704B2EB002F8591 /* NotificationView.swift */,
 				AD38B38E2704CB13002F8591 /* ElapsedTimeView.swift */,
+				AD38B3922704F67A002F8591 /* SummaryView.swift */,
+				AD721A4827060D710088FBFF /* ActivityRingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -297,10 +303,12 @@
 				AD38B38F2704CB13002F8591 /* ElapsedTimeView.swift in Sources */,
 				AD38B3912704D25D002F8591 /* ControlsView.swift in Sources */,
 				AD38B36F2704B2EB002F8591 /* NotificationController.swift in Sources */,
+				AD721A4927060D710088FBFF /* ActivityRingsView.swift in Sources */,
 				AD38B38B2704C6C2002F8591 /* MetricsView.swift in Sources */,
 				AD38B36D2704B2EB002F8591 /* StartView.swift in Sources */,
 				AD38B3732704B2EB002F8591 /* ComplicationController.swift in Sources */,
 				AD38B36B2704B2EB002F8591 /* WorkoutsApp.swift in Sources */,
+				AD38B3932704F67A002F8591 /* SummaryView.swift in Sources */,
 				AD38B3712704B2EB002F8591 /* NotificationView.swift in Sources */,
 				AD38B3892704B5B8002F8591 /* SessionPagingView.swift in Sources */,
 			);
