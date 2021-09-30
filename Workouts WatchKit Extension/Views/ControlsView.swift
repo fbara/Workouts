@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ControlsView: View {
+    
+    @EnvironmentObject var workoutManager: WorkoutManager
+    
     var body: some View {
         
         HStack {
             VStack {
                 Button {
-                    
+                    workoutManager.endWorkout()
                 } label: {
                     Image(systemName: "xmark")
                 }
@@ -23,13 +26,13 @@ struct ControlsView: View {
             }
             VStack {
                 Button {
-                    
+                    workoutManager.togglePause()
                 } label: {
-                    Image(systemName: "pause")
+                    Image(systemName: workoutManager.running ? "pause" : "play")
                 }
                 .tint(Color.yellow)
                 .font(.title2)
-                Text("Pause")
+                Text(workoutManager.running ? "Pause" : "Resume")
             }
         }
     }

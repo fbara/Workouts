@@ -168,6 +168,7 @@
 				AD38B38E2704CB13002F8591 /* ElapsedTimeView.swift */,
 				AD38B3922704F67A002F8591 /* SummaryView.swift */,
 				AD721A4827060D710088FBFF /* ActivityRingsView.swift */,
+				AD38B3902704D25D002F8591 /* ControlsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,7 +178,6 @@
 			children = (
 				AD38B36E2704B2EB002F8591 /* NotificationController.swift */,
 				AD38B3722704B2EB002F8591 /* ComplicationController.swift */,
-				AD38B3902704D25D002F8591 /* ControlsView.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
